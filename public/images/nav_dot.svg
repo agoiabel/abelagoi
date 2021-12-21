@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="14px" viewBox="0 0 10 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Triangle 1 + Triangle 1 Copy</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Template_white" transform="translate(-535.000000, -80.000000)" fill="#FAE586">
+            <g id="header_menu" transform="translate(210.000000, 80.000000)">
+                <g id="Group" transform="translate(236.000000, 0.000000)">
+                    <g id="Triangle-1-+-Triangle-1-Copy" transform="translate(89.000000, 0.000000)">
+                        <polygon id="Triangle-1" points="5 0 10 6.86792453 0 6.86792453"></polygon>
+                        <polygon id="Triangle-1-Copy" points="5 13.7358491 0 6.86792453 10 6.86792453"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

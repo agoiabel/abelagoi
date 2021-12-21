@@ -1,7 +1,20 @@
-import '../styles/globals.css'
+import React from 'react';
+import Themes from '../theme';
+import GlobalStyle from '../global_style';
+import { ThemeProvider } from 'styled-components';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function App({ Component, pageProps }) {
+
+  //white, green
+  const [theme, setTheme] = React.useState('green');
+
+
+  return (
+    <>
+      <ThemeProvider theme={Themes[theme]}>
+        <GlobalStyle />
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
+  )
 }
-
-export default MyApp
